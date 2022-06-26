@@ -1,0 +1,6 @@
+name: "Burger Theme"
+description: "Burger Theme description"
+type: theme
+core_version_requirement: ^8 || ^9
+base theme: classy
+
