@@ -4,3 +4,5 @@ type: theme
 core_version_requirement: ^8 || ^9
 base theme: classy
 
+libraries:
+  - burger_theme/global-styling
