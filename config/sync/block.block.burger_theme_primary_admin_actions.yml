@@ -1,0 +1,20 @@
+uuid: 5efb7cfb-b48d-4ca7-95c9-50e2368c0343
+langcode: en
+status: true
+dependencies:
+  theme:
+    - burger_theme
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: burger_theme_primary_admin_actions
+theme: burger_theme
+region: highlighted
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

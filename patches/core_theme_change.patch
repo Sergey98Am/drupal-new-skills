@@ -1,0 +1,39 @@
+diff --git a/core/themes/seven/templates/node-edit-form.html.twig b/core/themes/seven/templates/node-edit-form.html.twig
+index cf747f929..de425eafb 100644
+--- a/core/themes/seven/templates/node-edit-form.html.twig
++++ b/core/themes/seven/templates/node-edit-form.html.twig
+@@ -21,11 +21,11 @@
+   </div>
+   <div class="layout-region layout-region-node-secondary">
+     {{ form.advanced }}
++    {{ form.actions }}
+   </div>
+   <div class="layout-region layout-region-node-footer">
+     <div class="layout-region-node-footer__content">
+       {{ form.footer }}
+-      {{ form.actions }}
+     </div>
+   </div>
+ </div>
+diff --git a/core/themes/stable/css/node/node.module.css b/core/themes/stable/css/node/node.module.css
+index c56463369..115d65017 100644
+--- a/core/themes/stable/css/node/node.module.css
++++ b/core/themes/stable/css/node/node.module.css
+@@ -55,6 +55,17 @@
+     width: 100%;
+     max-width: 100%;
+   }
++
++  .node-unit-edit-form .layout-region-node-secondary {
++    width: 20%;
++    position: sticky;
++    top: 50px;
++  }
++
++  .node-unit-edit-form .layout-region-node-main,
++  .node-unit-edit-form .layout-region-node-footer {
++    width: 80%;
++  }
+ }
+ 
+ /**

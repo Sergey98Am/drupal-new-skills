@@ -1,0 +1,12 @@
+diff --git a/modules/contrib/nodejs/src/Nodejs.php b/modules/contrib/nodejs/src/Nodejs.php
+index bddbe33ce..536329695 100644
+--- a/modules/contrib/nodejs/src/Nodejs.php
++++ b/modules/contrib/nodejs/src/Nodejs.php
+@@ -191,6 +191,7 @@ protected function httpRequest($path, array $options = []) {
+     $options += [
+       'method' => 'GET',
+       'timeout' => !empty($this->config['timeout']) ? $this->config['timeout'] : 5,
++      'verify' => false,
+       'headers' => [],
+     ];
+     $options['headers'] += [

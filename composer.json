@@ -82,7 +82,16 @@
         "patchLevel": {
             "drupal/core": "-p2"
         },
+        "enable-patching": true,
         "patches": {
+            "drupal/core": {
+                "2796341: Entity reference field View output is not used for selected entity display": "https://www.drupal.org/files/issues/2018-11-27/entityreference_autocomplete_views_edit-2796341-18.patch",
+                "Core theme change": "patches/core_theme_change.patch",
+                "3117665: Remove error “Public files directory Not fully protected” in non apache servers": "https://www.drupal.org/files/issues/2020-03-04/3117665-non_apache_servers_4.patch",
+                "Remember courses selected filters": "patches/drupal_session_views_filter.patch",
+                "Entity view form mode formatter widget settings have no translation UI actions": "https://www.drupal.org/files/issues/2020-12-04/2546212-168-actions.patch",
+                "Entity view form mode formatter widget settings have no translation UI": "https://www.drupal.org/files/issues/2020-12-04/2546212-168.patch"
+            }
         }
     }
 }

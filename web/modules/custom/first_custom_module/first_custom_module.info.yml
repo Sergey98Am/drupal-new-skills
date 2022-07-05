@@ -1,0 +1,7 @@
+name: First Custom Module
+descriptio: Custom Module
+core_version_requirement: ^8 || ^9
+type: module
+package: Lsky
+'interface translation project': first_custom_module
+'interface translation server pattern': modules/custom/first_custom_module/translations/%language.po
