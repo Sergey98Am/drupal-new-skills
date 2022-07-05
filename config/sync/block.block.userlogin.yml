@@ -1,0 +1,20 @@
+uuid: 05159e35-853d-473a-9db3-0c6b6b2b970c
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - burger_theme
+id: userlogin
+theme: burger_theme
+region: custom_header_region
+weight: 0
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'User login'
+  label_display: visible
+  provider: user
+visibility: {  }
