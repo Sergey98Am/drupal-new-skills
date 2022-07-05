@@ -1,0 +1,10 @@
+tips:
+  views-ui-fields:
+    label: Դաշտեր
+  views-ui-filter-operations:
+    body: 'Ավելացնել, տեղափոխել կամ հեռացնել ֆիլտրները'
+  views-ui-sorts-operations:
+    label: 'Դասակարգման գործողություններ'
+    body: 'Ավելացնել, տեղափոխել կամ հեռացնել դասակարգման օրինափությունները'
+  views-ui-preview:
+    label: Նախադիտում
