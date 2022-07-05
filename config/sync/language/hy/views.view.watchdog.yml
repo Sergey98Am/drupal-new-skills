@@ -1,0 +1,36 @@
+description: 'Վերջին մուտքի հաղորդագրություններ'
+display:
+  default:
+    display_title: Լռելյայն
+    display_options:
+      title: 'Վերջին մուտքի հաղորդագրություններ'
+      fields:
+        severity:
+          label: Կարևորություն
+        type:
+          label: Տեսակ
+        timestamp:
+          label: Ամսաթիվ
+        message:
+          label: Հաղորդագրություն
+        name:
+          label: Օգտագործող
+        link:
+          label: Գործողություններ
+      exposed_form:
+        options:
+          submit_button: Ֆիլտր
+          exposed_sorts_label: 'Դասակարգել ըստ'
+      empty:
+        area:
+          admin_label: 'Որևէ լոգ հաղորդագրություն հասանելի չէ'
+          content: 'Որևէ լոգ հաղորդագրություն հասանելի չէ'
+      filters:
+        type:
+          expose:
+            label: Տեսակ
+        severity:
+          expose:
+            label: Կարևորություն
+  page:
+    display_title: Էջ
