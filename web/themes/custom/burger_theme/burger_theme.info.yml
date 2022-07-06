@@ -5,6 +5,7 @@ core_version_requirement: ^8 || ^9
 base theme: classy
 libraries:
   - burger_theme/global-styling
+  - burger_theme/fontawsome_cdn
 
 regions:
   header: Header
